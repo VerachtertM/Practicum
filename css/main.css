@@ -60,7 +60,7 @@
 /** ASIDE */
 #aside{
     width: 25%;
-    height: 1000px;
+    height: 1250px;
     background-color: rgb(255 183 133);
 }
 #aside h3{
@@ -98,4 +98,75 @@
     font-size: 20px;
 }
 /** END - ASIDE */
+}
+
+/** MAIN */
+#main{
+    width: 75%;
+    height: 1250px;
+    background-color: yellow;
+    position: absolute;
+    left: 480px;
+    top: 330px;
+}
+#main h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: rgb(191 86 16);
+}
+#main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#main img{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 50px;
+    padding-top: 30px;
+}
+#main-pa2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 270px;  
+}
+#main-pa3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+}
+#main-h3-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+#main-pa4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#main-imag2{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 500px;
+    padding-top: 30px;
+}
+#main-pa5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 270px;
+
+}
+#main-pa6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+
 }
