@@ -60,7 +60,7 @@
 /** ASIDE */
 #aside{
     width: 25%;
-    height: 570px;
+    height: 840px;
     background-color: rgb(255 183 133);
 }
 #aside h3{
@@ -73,36 +73,21 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-top: 20px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
-.uLine1{
-    height: 3px;
-    width: 410px;
-    background-color: rgb(193 195 196);
-    border-radius: 5px 5px 5px 5px;
-    position: absolute;
-    left: 40px;
-    margin-top: 20px;
+#aside-imap iframe{
+    padding-left: 25px;
+    padding-top: 20px;
+    width: 450px;
 }
-#aside-pa2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-left: 40px;
-    padding-top: 40px;
-}
-#aside-pa3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-left: 40px;
-    padding-top: 40px;
-}
+
 /** END - ASIDE */
 
 
 /** MAIN */
 #main{
     width: 75%;
-    height: 570px;
+    height: 840px;
     background-color: white;
     position: absolute;
     left: 480px;
@@ -115,66 +100,113 @@
     padding-left: 20px;
     color: rgb(191 86 16);
 }
-#main-avm{
+#main-pa1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-top: 20px;
     padding-left: 20px;
     font-weight: bold;
 }
-#main-h4{
+.main-label1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 40px;
-    padding-left: 20px;  
-}
-.uLine2{
-    height: 1px;
-    width: 1400px;
-    background-color: black;
+    padding-left: 20px;
+    padding-top: 30px;
     position: absolute;
+    font-size: 20px;
+}
+.main-input1{
+    font-size: 20px;
+    border: 1px solid black;
+    width: 500px;
     left: 20px;
-    margin-top: 20px;
+    top: 190px;
+    position: absolute;
 }
-#main-h4 strong{
-    font-weight: bold;
-}
-#main-pa1{
+.main-label2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
     padding-left: 20px;
-    padding-top: 40px;
-}
-#main-h4-2{
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 75px;
+    position: absolute;
     font-size: 20px;
-    padding-top: 40px;
-    padding-left: 20px;  
 }
-#main-h4-2 strong{
-    font-weight: bold;
-}
-#main-pa2{
-    font-family: Arial, Helvetica, sans-serif;
+.main-input2{
     font-size: 20px;
+    border: 1px solid black;
+    width: 500px;
+    left: 20px;
+    top: 270px;
+    position: absolute;
+}
+.main-label3{
+    font-family: Arial, Helvetica, sans-serif;
     padding-left: 20px;
-    padding-top: 40px;
-}
-#main-h4-3{
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 120px;
+    position: absolute;
     font-size: 20px;
-    padding-top: 40px;
-    padding-left: 20px;  
 }
-#main-h4-3 strong{
-    font-weight: bold;
-}
-#main-pa3{
-    font-family: Arial, Helvetica, sans-serif;
+.main-input3{
     font-size: 20px;
+    border: 1px solid black;
+    width: 500px;
+    left: 20px;
+    top: 350px;
+    position: absolute;
+}
+.main-label4{
+    font-family: Arial, Helvetica, sans-serif;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 165px;
+    position: absolute;
+    font-size: 20px;
 }
+.main-input4{
+    font-size: 20px;
+    border: 1px solid black;
+    width: 500px;
+    left: 20px;
+    top: 430px;
+    position: absolute;
+}
+.main-label5{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 210px;
+    position: absolute;
+    font-size: 20px;
+}
+.main-textarea{
+    position: absolute;
+    top: 510px;
+    left: 20px;
+    border: 1px solid black;
+    width: 500px;
+    height: 150px;
+}
+.main-textarea::placeholder{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.main-button{
+    width: 90px;
+    height: 40px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    top: 700px;
+    left: 20px;
+    position: absolute;
+    background-color: rgb(209 95 14);
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+.main-button:hover{
+    color: rgb(253 234 224);
+    cursor: pointer;
+}
+
+
 /** END - MAIN */
 
 
