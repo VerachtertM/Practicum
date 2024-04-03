@@ -149,13 +149,13 @@
     border: 1px solid black;
     width: 380px;
     left: 20px;
-    top: 350px;
+    margin-top: 133px;
     position: absolute;
 }
 .main-label4{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 20px;
-    padding-top: 165px;
+    padding-top: 160px;
     position: absolute;
     font-size: 20px;
 }
@@ -164,7 +164,7 @@
     border: 1px solid black;
     width: 380px;
     left: 20px;
-    top: 430px;
+    margin-top: 175px;
     position: absolute;
 }
 .main-label5{
@@ -176,7 +176,7 @@
 }
 .main-textarea{
     position: absolute;
-    top: 510px;
+    margin-top: 230px;
     left: 20px;
     border: 1px solid black;
     width: 380px;
@@ -193,7 +193,7 @@
     color: #ffffff;
     font-family: Arial, sans-serif;
     font-size: 20px;
-    top: 700px;
+    margin-top: 390px;
     left: 20px;
     position: absolute;
     background-color: rgb(209 95 14);
